@@ -187,14 +187,14 @@ $(document).ready(function () {
             title: "Dan and Frances' Wedding",
 
             // Event start date
-            start: new Date('Oct 27, 2021 13:00'),
+            start: new Date('Oct 23, 2021 13:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Oct 28, 2021 00:00'),
+            end: new Date('Oct 24, 2021 00:00'),
 
             // Event Address
             address: 'Orsett Hall, Essex',
@@ -241,7 +241,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
+    var location = {lat: 51.5156082, lng: 0.3751167};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
